@@ -23,7 +23,7 @@ temp=saca;
 	temp=temp%20;
 	 }
 	 if (temp>10){
-		n10=(int) (temp/10);
+		n10=(temp/10);
 		temp=temp%10;
 	 }
 	 if (temp>2){
