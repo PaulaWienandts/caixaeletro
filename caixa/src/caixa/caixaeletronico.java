@@ -11,15 +11,15 @@ int n2=0;
 int saca= 784 ;
 temp=saca;
  if (saca>100) {
-	 n100 = (int) (saca / 100);
-	temp=(int) (saca%100);
+	 n100 = (saca / 100);
+	temp=(saca%100);
 }
 	 if (temp>50){
-		n50 =(int) (temp/50);
+		n50 =(temp/50);
 	 temp=temp%50;
 	 }
 	 if (temp>20){
-		n20=(int) (temp/20);
+		n20=(temp/20);
 	temp=temp%20;
 	 }
 	 if (temp>10){
@@ -27,7 +27,7 @@ temp=saca;
 		temp=temp%10;
 	 }
 	 if (temp>2){
-			n2=(int) (temp/2);
+			n2=(temp/2);
 		temp=temp%2;
 		
 	 }
