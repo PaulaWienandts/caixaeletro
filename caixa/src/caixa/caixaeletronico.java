@@ -36,4 +36,4 @@ System.out.println(n50);
 System.out.println(n20);
 System.out.println(n10);
 System.out.println(n2);
-}}
+}}lolololo
