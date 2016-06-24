@@ -31,10 +31,10 @@ temp=saca;
 		temp=temp%2;
 		
 	 }
-System.out.println(n100);
-System.out.println(n50);
-System.out.println(n20);
-System.out.println(n10);
-System.out.println(n2);
-//loloollol
+	 System.out.println("Quantidade de notas de 100: " +n100);
+	 System.out.println("Quantidade de notas de 50: "+n50);
+	 System.out.println("Quantidade de notas de 20: "+n20);
+	 System.out.println("Quantidade de notas de 10: "+n10);
+	 System.out.println("Quantidade de notas de 2: "+n2);
+	 System.out.println("Total de notas:"+n100+n50+n20+n10+n2);
 }}
